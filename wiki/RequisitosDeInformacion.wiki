@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
+Del usuario tenemos un nombre de usuario, una contraseña, un país, una lista de idiomas predefinidos, un traductor predefinido, lista de suscripciones a noticias preferidas, apariencia predefinida (combinación elegida). 
 
-Add your content here.
+Para la apariencia, inicialmente habrá 2 o 3 combinaciones. Por ejemplo:
+* bullet item Combinación1: Color de fondo azul, botones verde agua, tipo de fuente Lucida Console, etc.
+Combinacion2: Color de fondo gris, botones gris plateado, tipo de fuente Times New Roman, etc.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+En lista de suscripciones a noticias para cada suscripción tenemos un estado que nos indica si la suscripción está activada o no.
+De cada lista de idiomas predefinidos tenemos nombre del idioma y “por defecto”.
+De cada suscripción tenemos nombre, la descripción y las noticias.
+De cada noticia tenemos su titulo, su resumen, la fecha y la URL de la noticia.
