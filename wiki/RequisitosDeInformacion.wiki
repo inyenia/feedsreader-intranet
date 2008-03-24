@@ -1,9 +1,10 @@
+#labels Featured
 = Introduction =
 Del usuario tenemos un nombre de usuario, una contraseña, un país, una lista de idiomas predefinidos, un traductor predefinido, lista de suscripciones a noticias preferidas, apariencia predefinida (combinación elegida). 
 
 Para la apariencia, inicialmente habrá 2 o 3 combinaciones. Por ejemplo:
-* bullet item Combinación1: Color de fondo azul, botones verde agua, tipo de fuente Lucida Console, etc.
-Combinacion2: Color de fondo gris, botones gris plateado, tipo de fuente Times New Roman, etc.
+    Combinación1: Color de fondo azul, botones verde agua, tipo de fuente Lucida Console,        etc.
+    Combinacion2: Color de fondo gris, botones gris plateado, tipo de fuente Times New Roman, etc.
 
 En lista de suscripciones a noticias para cada suscripción tenemos un estado que nos indica si la suscripción está activada o no.
 De cada lista de idiomas predefinidos tenemos nombre del idioma y “por defecto”.
