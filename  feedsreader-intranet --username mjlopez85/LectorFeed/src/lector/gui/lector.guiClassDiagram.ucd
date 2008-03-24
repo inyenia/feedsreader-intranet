@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="lector.guiClassDiagram" foregroundRGB="255,255,255" id="{UMLID=_3jqU8MCaEdyzj-hy28bRaw,JavaID=lector.gui}" metadata="uml2-1.0" initialized="true" tag="1000" key="3230303730363239204C6563746F72466565642F726F6F74">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.3/@sourceConnections.1" name="AplicationFrm" location="160,84" size="150,154" stereotype="" id="{UMLID=_F0F4MMCcEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm}" runTimeClassModel="setDecoratorFrm(Llector.gui.DecoratorFrm;),getDecoratorFrm(),run(),initialize(),decoratorFrm">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="decoratorFrm" id="{UMLID=_JfUsdMCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm@aplicationFrm+lector.gui/DecoratorFrm@decoratorFrm|lector.gui/DecoratorFrm#decoratorFrm}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="getDecoratorFrm" id="{UMLID=_JyQPgMCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm#getDecoratorFrm()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDecoratorFrm" id="{UMLID=_JyQPg8CfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm#setDecoratorFrm(Llector.gui.DecoratorFrm;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_RlG9QMCeEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm#initialize()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="{UMLID=_OTPOwMCcEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm#run()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" description="Interface Realization" autoLocated="true" id="{UMLID=_N--O8MCcEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm->lector.gui/IResourse}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.2/@sourceConnections.0" name="IResourse" location="402,86" size="104,81" stereotype="interface" id="{UMLID=_KMFMIMCcEdyzj-hy28bRaw,JavaID=lector.gui/IResourse}" runTimeClassModel="run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="{UMLID=_L1lgkMCcEdyzj-hy28bRaw,JavaID=lector.gui/IResourse#run()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="620,93" size="147,67" stereotype="" id="{UMLID=_EKqKUMCeEdyzj-hy28bRaw,JavaID=lector.gui/Main}" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_EKqKUcCeEdyzj-hy28bRaw,JavaID=lector.gui/Main#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" description="Create" autoLocated="true" id="{UMLID=_Jge_gMCeEdyzj-hy28bRaw,JavaID=lector.gui/Main->lector.gui/IResourse}" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,40"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="541,98" size="53,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.5/@sourceConnections.0" name="DecoratorFrm" location="160,368" size="149,113" stereotype="" id="{UMLID=_VfTh8MCeEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm}" runTimeClassModel="aplicationFrm,addFrame(),setAplicationFrm(Llector.gui.AplicationFrm;),containsAllAplicationFrm(Llector.gui.AplicationFrm;),getAplicationFrm()">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="aplicationFrm" id="{UMLID=_JfUsccCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm@aplicationFrm+lector.gui/DecoratorFrm@decoratorFrm|lector.gui/AplicationFrm#aplicationFrm}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="getAplicationFrm" id="{UMLID=_Jmx_V8CfEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm#getAplicationFrm()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFrame" id="{UMLID=_YOGDcMCeEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm#addFrame()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Aggregation" id="{UMLID=_JfUscMCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm@aplicationFrm+lector.gui/DecoratorFrm@decoratorFrm}" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="decoratorFrm" location="32,0" id="{UMLID=_JfUsdMCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm@aplicationFrm+lector.gui/DecoratorFrm@decoratorFrm|lector.gui/DecoratorFrm#decoratorFrm}" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.0/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- decoratorFrm" location="99,343" size="72,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="-47.0" distanceFromWire="56.00000000000001" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="179,347" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="aplicationFrm" location="32,154" id="{UMLID=_JfUsccCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm@aplicationFrm+lector.gui/DecoratorFrm@decoratorFrm|lector.gui/AplicationFrm#aplicationFrm}" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="181,245" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- aplicationFrm" location="110,250" size="70,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="46.0" distanceFromWire="47.0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" location="202,296" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" id="{UMLID=_DTZ8wMCfEdyzj-hy28bRaw,JavaID=lector.gui/AplicationFrm&lt;-lector.gui/DecoratorFrm}" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.1" sourceEnd="//@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,154"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LoginFrame" location="30,580" size="119,49" stereotype="" id="{UMLID=_hUlG0MCeEdyzj-hy28bRaw,JavaID=lector.gui/LoginFrame}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_AHQJ0MCfEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm&lt;-lector.gui/LoginFrame}" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,113"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ShowFrame" location="175,580" size="119,49" stereotype="" id="{UMLID=_jFFbIMCeEdyzj-hy28bRaw,JavaID=lector.gui/ShowFrame}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_Bmxb0MCfEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm&lt;-lector.gui/ShowFrame}" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,113"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LookFrame" location="320,580" size="114,49" stereotype="" id="{UMLID=_lJ2vQMCeEdyzj-hy28bRaw,JavaID=lector.gui/LookFrame}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_A3_DMMCfEdyzj-hy28bRaw,JavaID=lector.gui/DecoratorFrm&lt;-lector.gui/LookFrame}" source="//@children.6" target="//@children.3" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,113"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FactoryDecoratorCreate" location="370,391" size="193,67" stereotype="" id="{UMLID=_0XMcIMCeEdyzj-hy28bRaw,JavaID=lector.gui/FactoryDecoratorCreate}" runTimeClassModel="create()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="create" id="{UMLID=_1rFs8MCeEdyzj-hy28bRaw,JavaID=lector.gui/FactoryDecoratorCreate#create()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" description="Create" autoLocated="true" id="{UMLID=_4bXcMMCeEdyzj-hy28bRaw,JavaID=lector.gui/FactoryDecoratorCreate->lector.gui/DecoratorFrm}" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.1" label="//@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,56"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="318,396" size="53,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" description="usage" autoLocated="true" id="{UMLID=_8ve8wMCeEdyzj-hy28bRaw,JavaID=lector.gui/FactoryDecoratorCreate->lector.configurator}" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.1/@children.1" label="//@children.7/@sourceConnections.1/@children.2" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,58"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="586,396" size="59,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.7/@sourceConnections.1" name="lector.configurator" location="660,366" size="156,117" id="{UMLID=_KuRi8MCLEdyhBKxko6Jwuw,JavaID=lector.configurator}">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
